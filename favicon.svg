@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 110">
+  <defs>
+    <linearGradient id="topRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#aeff44"/>
+      <stop offset="60%" stop-color="#44cc00"/>
+      <stop offset="100%" stop-color="#228800"/>
+    </linearGradient>
+    <linearGradient id="topLeft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#228800"/>
+      <stop offset="100%" stop-color="#115500"/>
+    </linearGradient>
+    <linearGradient id="botRight" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#33bb00"/>
+      <stop offset="100%" stop-color="#115500"/>
+    </linearGradient>
+    <linearGradient id="botLeft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a8800"/>
+      <stop offset="100%" stop-color="#0a4400"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-right face -->
+  <polygon points="30,2 58,52 50,55 30,55" fill="url(#topRight)"/>
+  <!-- Upper-left face -->
+  <polygon points="30,2 2,52 10,55 30,55" fill="url(#topLeft)"/>
+
+  <!-- Belt (horizontal pinch) -->
+  <polygon points="2,52 10,55 50,55 58,52" fill="#0e6600"/>
+  <polygon points="10,55 2,58 58,58 50,55" fill="#0a4a00"/>
+
+  <!-- Lower-right face -->
+  <polygon points="50,55 58,58 30,108 30,55" fill="url(#botRight)"/>
+  <!-- Lower-left face -->
+  <polygon points="10,55 2,58 30,108 30,55" fill="url(#botLeft)"/>
+
+  <!-- Center upper highlight (bright streak) -->
+  <polygon points="30,2 42,30 36,52 28,52 24,30" fill="#ccff55" opacity="0.55"/>
+
+  <!-- Top specular glint -->
+  <polygon points="30,2 38,18 30,28 22,18" fill="#eeff99" opacity="0.5"/>
+</svg>
